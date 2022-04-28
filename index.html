@@ -15,22 +15,31 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="container main-nav">
-        
+<header class="header">
+    <div class="container header-main-nav">
+        <nav class="main-nav">
             <a href="./" lang="en" class="logo logo-header"><span>Web</span>Studio</a>
             <ul class="site-nav list">
                 <li class="li"><a href="./" class="link current">Студия</a></li>
                 <li class="li"><a href="./portfolio.html" >Портфолио</a></li>
                 <li class="li"><a href="">Контакты</a></li>
             </ul>
-        
-            <ul class="site-contacts list">
-                <li class="li"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="li"><a href="tel:+38096111111">+38 096 111 11 11</a></li>
-            </ul>
-        </div>
-    </header>   
+        </nav>
+        <ul class="site-contacts list">
+            <li class="li "><a href="mailto:info@devstudio.com">
+                <svg class="mail-icon">
+                    <use href="./img/icon.svg#icon-envelope">
+                    </use>
+                </svg>info@devstudio.com</a></li>
+
+            <li class="li site-contacts-phone"><a href="tel:+38096111111">
+                <svg class="phone-icon">
+                    <use href="./img/icon.svg#icon-smartphone"></use>
+                </svg>
+                +38 096 111 11 11</a></li>
+        </ul>
+    </div>
+</header>
     <main>
         <section class="hero">
             <div class="main-hero container">
@@ -43,19 +52,19 @@
             <div class="container">
                 <h2 class="visually-hidden">Наши преимущества</h2>
                 <ul class="list-section list">
-                    <li class="list-items">
+                    <li class="list-items antena">
                         <h3 class="section-title h">Внимание к деталям</h3>
                         <p class="text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
-                    <li class="list-items">
+                    <li class="list-items clock">
                         <h3 class="section-title h">Пунктуальность</h3>
                         <p class="text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                     </li>
-                    <li class="list-items">
+                    <li class="list-items diagram">
                         <h3 class="section-title h">Планирование</h3>
                         <p class="text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                     </li>
-                    <li class="list-items">
+                    <li class="list-items astronavt">
                         <h3 class="section-title h">Современные технологии</h3>
                         <p class="text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
@@ -84,34 +93,51 @@
                 <ul class="list team-list">
                     <li class="part-team">
                         <img src="./img/igor.jpg" alt="Игорь Демьяненко,Product Designer" width="270px" class="foto-team">
-                        <div class="part-team-description">
                         <h3 class="title">Игорь Демьяненко</h3>
                         <p class="text-team">Product Designer</p>
-                        </div>
-                       
+                       <ul class="team-soc-list list">
+                           <li class="team-soc-item">
+                               <a href="" class="team-soc-link">
+                                    <svg class="team-soc-icon">
+                                        <use href="./img/icon.svg#icon-instagram" width="20" height="20">
+                                        </use>
+                                    </svg>
+                               </a>
+                           </li>
+                            <li class="team-soc-item"> 
+                                <a href="" class="team-soc-link"></a>
+                            </li class="team-soc-item">
+                            <li class="team-soc-item">
+                                <a href="" class="team-soc-link">
+                                </a>
+                            </li>
+                            <li class="team-soc-item">
+                                <a href="" class="team-soc-link"></a>
+                            </li>
+                       </ul>
                     </li>
                     <li class="part-team">
                         <img src="./img/olga.jpg" alt="Ольга Репина,Frontend Developer" width="270px" class="foto-team">
-                        <div class="part-team-description">
+                        
                         <h3 class="title">Ольга Репина</h3>
                         <p class="text-team">Frontend Developer</p>
-                        </div>
+                    
                         </li>
                     <li class="part-team">
                         <img src="./img/nikolay.jpg" alt="Николай Тарасов,Marketing" width="270px" class="foto-team">
-                        <div class="part-team-description">
+                        
                         <h3 class="title">Николай Тарасов</h3>
                         <p class="text-team">Marketing</p>
-                        </div>
+                        
                         
                     </li>
                     <li class="part-team">
                         <img src="./img/mihail.jpg" alt="Михаил Ермаков,UI Designer" width="270px" class="foto-team">
-                        <div class="part-team-description">
+                        
                         <h3 class="title">Михаил Ермаков</h3>
                         <p class="text-team">UI Designer</p>
-                        </div>
-                                                </figure>
+                        
+                                                
                     </li>
                 </ul>
            </div>
